@@ -1,0 +1,246 @@
+
+titulo-principal {
+  position: relative;
+}
+.foto-home {
+    height: 200px;
+    border-radius: 50%;/*arredonda borda*/
+}
+.subtitulo-principal {
+    text-align: center;
+    text-transform: none;
+    font-size: 20px;
+}
+
+.palavras-home {
+  perspective: 6px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.palavra-home {
+  position: absolute;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: bold;
+  color: #D5447E;
+}
+.eficiencia {
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(4px);
+}
+
+.boas-praticas {
+    top: 70%;
+    left: 20%;
+    transform: translate(-50%, -50%) rotate(10deg) translateZ(1px);
+}
+
+.codigo-limpo {
+    top: 45%;
+    left: 25%;
+    transform: translate(-50%, -50%) rotate(-10deg) translateZ(2px);
+}
+
+.css3 {
+    top: 55%;
+    left: 35%;
+    transform: translate(-50%, -50%) rotate(5deg) translateZ(2px);
+}
+
+.html5 {
+    top: 30%;
+    left: 65%;
+    transform: translate(-50%, -50%) rotate(10deg) translateZ(2px);
+}
+
+.javascript {
+    top: 15%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(1px);
+}
+
+.acessibilidade {
+    top: 30%;
+    left: 35%;
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(3px);
+}
+
+.responsivo {
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%) rotate(10deg) translateZ(3px);
+}
+
+.otimizacoes {
+    top: 70%;
+    left: 65%;
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(2px);
+}
+
+.agilidade {
+    top: 75%;
+    left: 35%;
+    transform: translate(-50%, -50%) rotate(5deg) translateZ(1px);
+}
+
+.design {
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(10deg) translateZ(2px);
+}
+.banner-twitter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform-origin: 0 0;
+  transform: translate(6.5754em, -2.4749em) rotate(45deg);
+
+  width: 14em;
+  line-height: 1;
+  padding: 1em 0;
+  box-sizing: border-box;
+
+  text-align: center;
+  text-decoration: none;
+  background-color: #3C1D3D;
+  color: white;
+  border: .25em solid black;
+
+  font-size: 1.2em;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+.saudacao p {
+  font-size: 1.5em;
+    color: #99A;
+    line-height: 1;
+    padding: 2em;
+    /*margin: 50px 80px;*/
+}
+.saudacao-inicio {
+    color: #889;
+    /*font-size: 40px;*/
+    font-size: 3em;
+}
+.saudacao-ultima-linha {
+    text-align: right;
+    display: block;
+}
+.saudacao strong {
+    color: #000;
+    font-size: 2em;
+}
+.saudacao em {
+    color: #851944;
+    font-size: 4em;
+    transform: rotate(-5deg) skew(-10deg);
+    display: inline-block;
+}
+.botao-index {
+    font-size: 1.25em;
+    background-color: #851944;
+    color: #FFF;
+    border: .2em solid black;
+    width: 40ch;
+    display: block;
+    text-align: center;
+    margin: 2em auto;
+    /*margin-bottom: 40px;*/
+}
+.secao-inicio {
+  padding: 2em;
+}
+.secao-inicio h2 {
+    font-size: 3em;
+    text-shadow: 2px 2px #000;
+    text-transform: uppercase;
+    margin bottom: .5em;
+}
+.trabalhos {
+    background-color: #3C1D3D;
+    border-top: .5em solid #000;
+    border-bottom: .5em solid #000;
+}
+.trabalhos h2 {
+    color: #FFF;
+}
+.trabalhos ul {
+    overflow: hidden;
+    border: .5em solid black;
+}
+.trabalhos li {
+    float: left;
+    width: 33.333%;
+}
+.trabalhos img {
+    width: 100%;
+    display: block;
+}
+.blog {
+    background-color: #999;
+    color: #FFF;
+    border-bottom: .5em solid #851944;
+    position: relative;
+    /*float: both;*/
+    /*margin-bottom: 50px;*/
+}
+.blog small {
+    position: relative;
+    /*float: left;*/
+    top: -.5em;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+.blog .mais-recente {
+  background-color: #F2FFFC;
+}
+.blog .mais-recente a {
+  color: #F26;
+}
+.blog li {
+  width: 30%;
+}
+.blog li a {
+    color: #FCF;
+    padding: .5em;
+    display: block;
+    top: 2em;
+}
+.inicio-post {
+  color: #000;
+  background-color: #FFF;
+  position: absolute;
+  top: 3em;
+  right: 3em;
+  height: 6em;
+  padding: 1em;
+}
+.blog .inicio-post {
+  position: absolute;
+  top: 4em;
+  height: 8em;
+  left: 30%;
+  right: 4em;
+  background-color: #F2FFFC;
+  color: #000;
+  padding: 1.5em;
+}
+footer {
+    background-color: #000;
+    color: #FFF;
+    padding: 2em;
+}
+footer h2 {
+    font-size: 3em;
+}
+footer a {
+    color: #F99;
+}
+main {
+    width: 100%;
+    padding-bottom: 0;
+    float: none;
+}
